@@ -1,0 +1,45 @@
+* {
+    background-color: pink;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.caja1{
+    width: 50vw;
+    height: 30vh;
+    border: 1px solid black;
+    /* display: inline-block; */
+    /* x defecto es block, inline, none */
+    /* visibility: hidden; */
+    /* hidden=desaparece pero mantiene el espacio */
+    /* float: left/right */
+    
+}   
+
+.caja2{
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+    /* display: inline-block; */
+    /* float: left; */
+}
+.caja3{
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+    /* clear: both; */
+/* Configuracion para tablet */
+@media only screen and (max-width: 700px){
+    *{background-color: aqua;}
+    .caja1{background-color: green;}
+    .caja2{background-color: yellow;}
+}
+/* Configuracion para celular */
+@media only screen and (max-width: 500px){
+    *{background-color: rgb(60, 0, 255);}
+    .caja1{background-color: red;}
+    .caja2{background-color: orange;}
+}

@@ -3,13 +3,18 @@ body {
     background-attachment: fixed;
     background-size: 100%;
   }
+  .conteiner{
+    /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around; */
+  }
   #nav {
     background-color: rgb(178, 46, 46, 0.5);
     color: rgb(255, 235, 205);
     padding: 10px 0;
     text-align: center;
   }
-  
+
   #nav li {
     display: inline-block;
     width: 24%;
@@ -17,7 +22,7 @@ body {
     border-radius: 9px;
     padding: 3px;
   }
-  
+
   #nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -27,25 +32,26 @@ body {
   #nav a:hover {
     background-color: rgb(101, 101, 99);
   }
-  
+
   #nav a:active {
     background-color: rgb(202, 52, 75);
   }
-  
+
   h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
-    margin-top: 12px;
+    margin-top: 22px;
     position:relative;
-   
+
   }
-  
-  
+
+
 .gallery{
   position:relative;
   width:300px;
   height:200px;
+
   transform-style:preserve-3d;
   animation:rotate 35s linear infinite;
 }
@@ -54,7 +60,7 @@ body {
   from{
     transform:perspective(1200px) rotateY(0deg);
   }
-  
+
   to{
     transform:perspective(1200px) rotateY(360deg);
   }
@@ -73,7 +79,7 @@ body {
   from{
     transform:perspective(1200px) rotateY(0deg);
   }
-  
+
   to{
     transform:perspective(1200px) rotateY(360deg);
   }
@@ -94,3 +100,88 @@ body {
   height:100%;
   object-fit:cover;
 }
+
+/* Aqui comienza el footer */
+footer {
+  background-color: #111;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+footer-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: 50vw;
+  width: 100vw;
+  padding-top: 5px;
+  color: #fff;
+}
+.socials {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+h5{
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+.socials li{
+  margin: 0 10px;
+
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+  text-align: center;
+  color: yellow;
+}
+.socials a:hover i {
+  color: aqua;
+}
+hr {
+  width: 90%;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  /* padding: 20px;
+  padding-bottom: 40px; */
+  text-align: center;
+}
+.copyright {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #dfe8ec;
+}
+
+/* Aqui termina el footer */
+
