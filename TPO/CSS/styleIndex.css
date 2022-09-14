@@ -157,6 +157,9 @@ h5{
 .socials a:hover i {
   color: aqua;
 }
+hr {
+  width: 90%;
+}
 
 .footer-bottom {
   background: #000;
