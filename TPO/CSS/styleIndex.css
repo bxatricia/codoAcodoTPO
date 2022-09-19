@@ -76,6 +76,11 @@ h1 {
   vertical-align: top;
   width: 22%;
 }
+.film:hover{
+	transform : scale(1.2);
+	-moz-transform : scale(1.2);
+	-webkit-transform : scale(1.2);  	
+}
 
 img {
   width: 247px;
