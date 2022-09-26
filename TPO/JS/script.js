@@ -13,4 +13,4 @@ methods: {
         fetch(URL)
         .then(Response)
     }
-}
+} 
