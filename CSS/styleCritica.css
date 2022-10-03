@@ -96,17 +96,12 @@ body {
 
 }
 
-.analizar, .critico, .dejarCritica, .evaluacion{
-  color: rgb(9, 9, 9);
-  
-  font-size: 20px;
-  text-align: justify;
-}
-
-h5{
+.criticaCine, .dejarCritica, .evaluacion{
+  color: rgb(9, 9, 9);  
   font-size: 15px;
-  margin-left: 5px;
   text-align: justify;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 h1 {
@@ -121,11 +116,18 @@ h1 {
   margin: auto;
 }
 
+h3{
+  color: rgb(9, 9, 9);  
+  font-size: 25px;  
+  text-align: left;
+  margin-left: 25px;
+
+}
+
 /* Aqui comienza formulario */
 
 .contacto {
   background-color: rgb(235, 233, 233);
-  margin: 20px;
   padding: 30px;
   width: 90%;
   min-height: 350px;
@@ -134,6 +136,7 @@ h1 {
   font-size: 14px; 
   color: black;
   font-family: "Cinzel", serif;
+  
 
 }
 
@@ -153,3 +156,84 @@ legend{
 
 
 /* Aqui termina formulario */
+
+/* Aqui comienza el footer */
+footer {
+  background-color: #111;
+  padding: 2%;
+}
+footer-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.socials {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+h5{
+  text-align: center;
+  color: white;
+  font-size: 1em; 
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+  text-align: center;
+}
+.socials a:hover i {
+  color: aqua;
+}
+hr {
+  width: 90%;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.copyright {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #dfe8ec;
+}
+
+/* Aqui termina el footer */
