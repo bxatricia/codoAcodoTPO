@@ -117,6 +117,65 @@ h1 {
   object-fit:cover;
   
 }
+.containerB{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+	grid-gap: 0.1rem;
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(152, 148, 148));
+  
+
+}
+.col1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border:0.1rem solid rgba(0, 0, 0,0.8);
+  padding:0.1rem;
+  font-size: 20px;
+  font-family: serif;
+  color: white;
+  text-align: left;
+  margin-top: 1px;
+  padding: 1rem 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.col1 img{ 
+	width: 85%;	
+	height: 85%;
+}
+
+.col1 p{
+	text-align: left;
+	margin: auto;
+}
+
+.col2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border:0.01rem solid rgba(0, 0, 0,);
+  padding:0.1rem;
+  font-size: 20px;
+  font-family: serif;
+  color: white;
+  text-align: left;
+  margin-top: 1px;
+  padding: 1rem 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.col2 img { 
+	height: 65%;
+	
+}
+
+
+.col2 p{
+	text-align: left;
+	margin: auto;
+}
 
 /* Aqui comienza el footer */
 footer {
@@ -185,7 +244,6 @@ hr {
 
 .footer-bottom {
   background: #000;
-  width: 100vw;
   padding: 20px;
   padding-bottom: 40px;
   text-align: center;
@@ -200,70 +258,9 @@ hr {
 
 
 /* Aqui termina el footer */
-section.banner{
-	/* background: linear-gradient(to left, rgb(0, 0, 0), rgb(152, 148, 148)); */
-	/* padding: 0.1rem 0; */
-}
-
-.containerB{
-	width: 90%;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-	grid-gap: 0.1rem;
-  background: linear-gradient(to left, rgb(0, 0, 0), rgb(152, 148, 148));
-  
-
-}
-.col1 {
-  background-color: rgba(0, 0, 0, 0.8);
-  border:0.1rem solid rgba(0, 0, 0,0.8);
-  padding:0.1rem;
-  font-size: 20px;
-  font-family: serif;
-  color: white;
-  text-align: left;
-  margin-top: 1px;
-  padding: 1rem 1rem;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-.col1 img{ 
-	width: 85%;	
-	height: 85%;
-}
-
-.col1 p{
-	text-align: left;
-	margin: auto;
-}
-
-.col2 {
-  background-color: rgba(0, 0, 0, 0.8);
-  border:0.01rem solid rgba(0, 0, 0,);
-  padding:0.1rem;
-  font-size: 20px;
-  font-family: serif;
-  color: white;
-  text-align: left;
-  margin-top: 1px;
-  padding: 1rem 1rem;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.col2 img { 
-	height: 65%;
-	
-}
 
 
-.col2 p{
-	text-align: left;
-	margin: auto;
-}
+
 
 
 
