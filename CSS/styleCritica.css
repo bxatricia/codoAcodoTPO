@@ -5,6 +5,9 @@ body {
   font-family: "Cinzel", serif;
   font-size: 15px;
 }
+.background{
+  background-size: cover;
+}
 
 /* Aca comienza la barra de navegacion */
 #nav {
