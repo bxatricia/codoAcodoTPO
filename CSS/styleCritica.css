@@ -157,6 +157,11 @@ legend{
   
 }
 
+textarea{  
+  resize: horizontal;
+  margin-right: auto;
+}
+
 
 /* Aqui termina formulario */
 
@@ -180,8 +185,8 @@ footer-content {
   list-style-type: none;
   display: flex;
   align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
 h4 {
   text-align: center;
@@ -226,7 +231,6 @@ hr {
 
 .footer-bottom {
   background: #000;
-  width: 100vw;
   padding: 20px;
   padding-bottom: 40px;
   text-align: center;
