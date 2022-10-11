@@ -102,8 +102,7 @@ body {
 .criticaCine, .dejarCritica, .evaluacion{
   color: rgb(9, 9, 9);  
   font-size: 15px;
-  text-align: justify;
-  margin-left: 25px;
+  text-align: justify;  
   margin-right: 25px;
 }
 
