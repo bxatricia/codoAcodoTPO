@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   font-family: "Cinzel", serif;
   font-size: 15px;
 }
