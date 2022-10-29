@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+/* Aca comienza la barra de navegacion */
+#nav {
+	background-color: rgb(178, 46, 46, 0.8);
+	border-radius: 10px;
+	color: white;
+	/* text-shadow: blue 1px 1px 2px; */
+	text-shadow: blue 1px 1px 2px;
+	padding: 10px 0;
+	text-align: center;
+  }
+  
+  #nav li {
+	display: inline-block;
+	width: 24%;
+	border: solid 1px white;
+	border-radius: 9px;
+	padding: 3px;
+  }
+  
+  #nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+  }
+  
+  #nav a:hover {
+	background-color: rgb(101, 101, 99);
+  }
+  
+  #nav a:active {
+	background-color: rgb(202, 52, 75);
+  }
+  /* Aca termina la barra de navegacion */
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.paginacion {
+	position: relative;
+	bottom: 0;
+	background: #100a1f;
+	margin: 5%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
+}
+/* Aqui comienza el footer */
+footer {
+  
+	background-color: #111;
+	margin: 5%;
+	padding: 2%;
+  }
+  footer-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: #fff;
+  }
+  .socials {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	  justify-content: center;
+	  margin: 1rem 0 3rem 0;
+  }
+  h4 {
+	text-align: center;
+	color: white;
+	font-size: 2em;
+  }
+  h5{
+	text-align: center;
+	color: white;
+	font-size: 1em; 
+	margin-left: 1rem;
+  }
+  .footer-content p {
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+	color: #cacdd2;
+  }
+  .socials a {
+	text-decoration: none;
+	color: #fff;
+	border: 1.1px solid white;
+	padding: 5px;
+	border-radius: 50%;
+	display: inline-flexbox;
+  }
+  .socials li{
+	margin: 0 10px;
+  }
+  .socials a i {
+	font-size: 1.1rem;
+	width: 20px;
+	transition: color 0.4s ease;
+	text-align: center;
+  }
+  .socials a:hover i {
+	color: aqua;
+  }
+  hr {
+	width: 90%;
+  }
+  
+  .footer-bottom {
+	background: #000;
+	padding: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+  }
+  .copyright {
+	float: left;
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+	color: #dfe8ec;
+  }
+  
+  
+  /* Aqui termina el footer */

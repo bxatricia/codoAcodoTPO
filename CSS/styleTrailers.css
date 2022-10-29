@@ -1,0 +1,260 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+}
+
+/* Aca comienza la barra de navegacion */
+#nav {
+  background-color: rgb(178, 46, 46, 0.8);
+  border-radius: 10px;
+  color: white;
+  text-shadow: blue 1px 1px 2px;
+  top:0;
+  padding:10px 0px;
+  width:98%;
+  text-align: center;
+}
+
+#nav li {
+  display: inline-block;
+  width: 24%;
+  border: solid 1px white;
+  border-radius: 9px;
+  padding: 3px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#nav a:hover {
+  background-color: rgb(101, 101, 99);
+
+}
+
+#nav a:active {
+  background-color: rgb(202, 52, 75);
+}
+
+.cabecera{
+  background-color: blue;
+
+}
+
+/*pagina*/
+
+.centrado{
+  margin:auto auto;
+  padding:auto .6em;
+} 
+
+@media  screen and (min-width:65em) {
+  .centrado{
+      margin:0 auto;
+      max-width:65em;
+   } 
+}
+
+.titulo1{
+  margin:0 0 1em;
+  padding:1em 0;
+  font-weight: 300;
+  color:hsl(0,0%,100%);
+}
+
+.cards{
+  display:block;
+  flex-wrap: wrap;
+  margin-top:1em;
+  justify-content: center;
+}
+
+.tarjeta{
+  background-color: rgb(92, 4, 4);
+  opacity: .9;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+.tarjeta-contenido{
+  padding:1.4em;
+  margin-top:0;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  text-align: center;
+}
+
+#comprar {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin:auto;
+  width:30%;
+  border-color: #111;
+  border-style:double;
+  border-radius: 5px;
+  background-color: rgb(31, 3, 3);
+  margin-bottom: 1em;
+}
+
+
+#comprar a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#comprar:hover{
+  background-color: rgb(196, 93, 24);
+}
+
+#comprar a:visited{
+  background-color: rgb(32, 25, 19);
+}
+
+
+.iframecontainer{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top:30px;
+  height:auto;
+  overflow:hidden;
+}
+
+.iframecontainer iframe, .iframecontainer object, .iframecontainer embed{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
+iframe:hover {
+    transform : scale(1.2);
+    -moz-transform : scale(1.2);
+    -webkit-transform : scale(1.2); 
+}
+
+
+
+.tituloh1{
+  background-color: hsl(0, 93%, 23%);
+  margin-bottom: 1em;
+  border-radius: 16px;
+  width:100%;
+  font-size: 120%;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: blue 1px 1px 2px;
+  background-color: rgb(178, 46, 46, 0.8);
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  color:whitesmoke;
+  text-shadow: rgb(101, 101, 99);
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top:10px;
+  text-shadow: rgb(20, 7, 206) 3px 3px 3px 3px;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #111;
+  padding: 1%;
+}
+footer-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.socials {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+h5 {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #CACDD2;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+  text-align: center;
+}
+.socials a:hover i {
+  color: aqua;
+}
+hr {
+  width: 90%;
+}
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.copyright {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #DFE8EC;
+}

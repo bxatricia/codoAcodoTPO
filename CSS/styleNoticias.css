@@ -1,0 +1,272 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+  
+}
+
+.background{
+  background-size: cover;
+  
+}
+
+/* Aca comienza la barra de navegacion */
+#nav {
+  background-color: rgb(178, 46, 46, 0.8);
+  border-radius: 10px;
+  color: white;
+  /* text-shadow: blue 1px 1px 2px; */
+  text-shadow: blue 1px 1px 2px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#nav li {
+  display: inline-block;
+  width: 24%;
+  border: solid 1px white;
+  border-radius: 9px;
+  padding: 3px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#nav a:hover {
+  background-color: rgb(101, 101, 99);
+}
+
+#nav a:active {
+  background-color: rgb(202, 52, 75);
+}
+/* Aca termina la barra de navegacion */
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: blue 1px 1px 2px;
+  background-color: rgb(178, 46, 46, 0.8);
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  padding-top: 1px;
+  margin-top: 1px;
+  color: white;
+}
+/* Aca inicia el carrusel */
+.gallery{
+
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 55rem;
+  grid-template-columns:  repeat(auto-fill, minmax(15rem, 1fr)); 
+  width:300px;
+  height:200px;
+  margin: 7rem;
+  transform-style:preserve-3d;
+  animation:rotate 55s linear infinite;
+  text-align: right;
+ 
+}
+
+@keyframes rotate{
+  from{
+    transform:perspective(1200px) rotateY(0deg);
+  }
+
+  to{
+    transform:perspective(1200px) rotateY(360deg);
+    
+  }
+}
+
+.gallery span{
+  position:absolute;
+  width:100%;
+  height:5%;
+  transform-origin:center;
+  transform-style:preserve-3d;
+  transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+  
+}
+
+@keyframes rotate{
+  from{
+    transform:perspective(1200px) rotateY(0deg);
+  }
+
+  to{
+    transform:perspective(1200px) rotateY(360deg);
+  }
+}
+
+.gallery span{
+  position:absolute;
+  width:100%;
+  height:100%;
+  transform-origin:center;
+  transform-style:preserve-3d;
+  transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+}
+
+.gallery span img{
+  
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  
+}
+/* Finaliza el carrusel */
+
+/* Incicio grid de noticias */
+.containerB{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+	grid-gap: 1px;
+  grid-gap: 51rem solid rgba(780, 0, 0,0.8);
+  background:#bdbdbe
+  
+
+}
+.col1 {
+  background-color: transparent;
+  border:0.1rem ridge rgba(167, 164, 164, 0.8);
+  padding:0.1rem;
+  font-size: 20px;
+  font-family: serif;
+  color: black;
+  text-align: left;
+  display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.col1 img{ 
+	width: 85%;	
+	height: 85%;
+}
+
+.col1 p{
+	text-align: left;
+	margin: auto;
+  
+}
+
+.col2 {
+  background-color: transparent;
+  border:0.1rem ridge rgba(167, 164, 164, 0.8);
+  padding:0.1rem;
+  font-size: 20px;
+  font-family: serif;
+  color: black;
+  text-align: left;
+  padding: 1rem 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.col2 img { 
+	height: 65%;
+	
+}
+
+
+.col2 p{
+	text-align: left;
+	margin: auto;
+  
+}
+/* Fin de grid de noticias */
+
+/* Aqui comienza el footer */
+footer {
+  
+  background-color: #111;
+  margin: 5%;
+  padding: 2%;
+}
+footer-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.socials {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+h5{
+  text-align: center;
+  color: white;
+  font-size: 1em; 
+  margin-left: 1rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-flexbox;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+  text-align: center;
+}
+.socials a:hover i {
+  color: aqua;
+}
+hr {
+  width: 90%;
+}
+
+.footer-bottom {
+  background: #000;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.copyright {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #dfe8ec;
+}
+
+
+/* Aqui termina el footer */
