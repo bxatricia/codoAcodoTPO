@@ -5,7 +5,8 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Cinzel", serif;
+	font-size: 18px;
 	background: #e0e0e0;
 	color: #1d1d1d;
 }
@@ -100,23 +101,7 @@ body {
 	background: #137c32;
 }
 
-@media (max-width: 412px){
-	.contenedor {
-	
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 10px;
-	
-}
 
-@media (max-width: 230px){
-	.contenedor {
-	
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: 10px;
-	
-}
 /* Aqui comienza el footer */
 footer {
   
@@ -200,3 +185,21 @@ footer {
   
   
   /* Aqui termina el footer */
+
+  @media (max-width: 412px){
+	.contenedor {
+	
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	
+}
+
+@media (max-width: 230px){
+	.contenedor {
+	
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+	
+}
