@@ -9,7 +9,8 @@ body {
 
 .background{
   background-size: cover;
-  
+  background-image: url(../img/imgNoticias/fondoNoticias2.jpg);
+  background-image: 300px;
 }
 
 /* Aca comienza la barra de navegacion */
@@ -78,15 +79,15 @@ h1 {
 .carousel__siguiente {
 	position: absolute;
 	display: block;
-	width: 80px;
-	height: 80px;
+	width: 140px;
+	height: 140px;
 	border: none;
-	top: calc(5% + 185px);
+	top: calc(20% + 140px);
 	cursor: pointer;
-	line-height: 260px;
-	text-align: bottom;
+	line-height: 80px;
+	text-align: center;
 	background: none;
-	color: black;
+	color: rgba(255,255,255);
 	opacity: 100%;
 }
 
@@ -96,13 +97,14 @@ h1 {
 }
 
 .carousel__anterior {
-	left: -30px;
+	left: 5px;
 
 ;
 }
 
 .carousel__siguiente {
-	right: -30px;
+	right: 5px;
+  
 }
 
 .carousel__lista {
