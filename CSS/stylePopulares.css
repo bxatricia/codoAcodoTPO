@@ -52,8 +52,25 @@ body {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 40px;
+@media (max-width: 450px){
+.contenedor {
+		
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+		
+	}
 }
-
+@media (max-width: 214px){
+	.contenedor {
+			
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		
+			
+		}
+	}
+}
 .contenedor .pelicula {
 	text-align: center;
 }
@@ -186,20 +203,4 @@ footer {
   
   /* Aqui termina el footer */
 
-  @media (max-width: 412px){
-	.contenedor {
-	
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 10px;
-	
-}
-
-@media (max-width: 230px){
-	.contenedor {
-	
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: 10px;
-	
-}
+ 
