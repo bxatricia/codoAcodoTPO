@@ -48,10 +48,25 @@ body {
 	width: 90%;
 	max-width: 1000px;
 	margin: 40px auto 100px auto;
-
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 20px;
+
+}
+@media  (max-width: 430px){
+		.contenedor {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 5px;
+		}
+	
+}
+@media  (max-width: 300px){
+	.contenedor {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 1px;
+	}
 
 }
 .contenedor .pelicula {
