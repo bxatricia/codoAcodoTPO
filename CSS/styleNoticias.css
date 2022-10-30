@@ -78,16 +78,16 @@ h1 {
 .carousel__siguiente {
 	position: absolute;
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 80px;
+	height: 80px;
 	border: none;
-	top: calc(50% - 35px);
+	top: calc(5% + 185px);
 	cursor: pointer;
-	line-height: 30px;
-	text-align: center;
+	line-height: 260px;
+	text-align: bottom;
 	background: none;
-	color: #fff;
-	opacity: 20%;
+	color: black;
+	opacity: 100%;
 }
 
 .carousel__anterior:hover,
@@ -96,9 +96,9 @@ h1 {
 }
 
 .carousel__anterior {
-	left: 30px;
+	left: -30px;
 
- color: yellow;
+;
 }
 
 .carousel__siguiente {
@@ -172,6 +172,8 @@ h1 {
   display: flex;
 	justify-content: center;
 	flex-direction: column;
+  
+  padding: 1rem 1rem;
 }
 .col1 img{ 
 	width: 85%;	
